@@ -1,4 +1,4 @@
-# Weather Data Pipeline
+# Weather Data Pipeline -  Kafka, Spark, Airflow
 
 ## Project Overview
 This project implements a robust weather data pipeline using Apache Kafka, Apache Spark, and Apache Airflow. It collects weather data from multiple Australian cities, processes it in real-time, stores it in a PostgreSQL database, and generates visualizations.
