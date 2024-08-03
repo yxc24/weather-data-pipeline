@@ -4,12 +4,13 @@
 This project implements a robust weather data pipeline using Apache Kafka, Apache Spark, and Apache Airflow. It collects weather data from multiple Australian cities, processes it in real-time, stores it in a PostgreSQL database, and generates visualizations.
 
 ## Technologies Used
-- Apache Kafka: For real-time data streaming
-- Apache Spark: For distributed data processing
-- Apache Airflow: For workflow orchestration
-- PostgreSQL: For data storage
-- Python: Primary programming language
-- Docker & Docker Compose: For containerization and easy deployment
+- **Apache Kafka**: For real-time data streaming, Kafka is used to collect weather data from an API and publish it to various topics for processing.
+- **Apache Spark**: Spark processes the data consumed from Kafka in a distributed manner, transforming and aggregating the weather data.
+- **Apache Airflow**: Airflow orchestrates the workflow, scheduling and monitoring each step of the data pipeline to ensure smooth operation.
+- **PostgreSQL**: PostgreSQL is the database used to store the processed weather data, providing a reliable and scalable storage solution.
+- **Python**: Python is used throughout the pipeline for data ingestion, processing, and automation tasks, leveraging libraries such as pandas, Matplotlib, and Seaborn.
+- **Power BI**: Power BI is used to create interactive dashboards and reports from the data stored in PostgreSQL, providing insights and visualizations.
+- **Docker & Docker Compose**: Docker and Docker Compose are used for containerization, making it easy to deploy and manage the different components of the pipeline.
 
 ## Setup and Installation
 
