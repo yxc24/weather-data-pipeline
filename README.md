@@ -4,6 +4,7 @@
 This project implements a robust weather data pipeline using Apache Kafka, Apache Spark, and Apache Airflow. It collects weather data from multiple Australian cities, processes it in real-time, stores it in a PostgreSQL database, and generates visualizations.
 
 ## Technologies Used
+![Data Infrastructure](weather_visualizations/project_diagram.png)
 - **Apache Kafka**: For real-time data streaming, Kafka is used to collect weather data from an API and publish it to various topics for processing.
 - **Apache Spark**: Spark processes the data consumed from Kafka in a distributed manner, transforming and aggregating the weather data.
 - **Apache Airflow**: Airflow orchestrates the workflow, scheduling and monitoring each step of the data pipeline to ensure smooth operation.
