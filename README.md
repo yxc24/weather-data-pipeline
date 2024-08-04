@@ -21,7 +21,7 @@ This project implements a robust weather data pipeline using Apache Kafka, Apach
 
 ### Steps to Run
 1. Clone the repository:
-git clone https://github.com/your-username/weather-data-pipeline.git
+git clone https://github.com/yxc24/weather-data-pipeline.git
 cd weather-data-pipeline
 
 2. Build and start the services:
