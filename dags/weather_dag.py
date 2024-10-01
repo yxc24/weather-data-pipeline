@@ -53,7 +53,7 @@ dag = DAG(
     'weather_data_pipeline',
     default_args=default_args,
     description='A DAG for the weather data pipeline',
-    schedule_interval=None,
+    schedule_interval='0 6 * * *',  # Run every day at 6 AM
 )
 
 start_kafka_producer = BashOperator(
